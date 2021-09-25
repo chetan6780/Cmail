@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+textarea {
+  min-height: 200px;
+}
+body {
+  background-color: #fff9c4 !important;
+}
+#message {
+  height: 50px;
+}
+.card-body {
+  padding: 0.9rem;
+}
+.unread {
+  background-color: #e2e2e2;
+}
+.read {
+  background-color: #fff;
+}
+.nav-item {
+  margin-left: 1rem !important;
+}
+.navbar {
+  background-color: #ffecb3 !important;
+}
+.auth-btn {
+  color: #fff9c4 !important;
+  width: 100% !important;
+}
+#compose-view {
+  background-color: #ffecb3 !important;
+  border-radius: 1%;
+}
