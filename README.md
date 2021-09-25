@@ -1,6 +1,6 @@
 # <img src="https://user-images.githubusercontent.com/62825092/134491462-35446f6c-fa65-45ec-a844-a9f152d20929.png" alt="Cmail logo" style="width:35px"> Cmail
 
-## Local setup
+## Local setup.
 
 1. Clone the repository
 
