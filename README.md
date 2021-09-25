@@ -21,15 +21,18 @@ $ .\Scripts\activate
 ```sh
 (venv)$ pip install -r requirements.txt
 ```
-*Note: `(venv)` in front of the prompt. This indicates that this terminal
+
+_Note: `(venv)` in front of the prompt. This indicates that this terminal
 session operates in a virtual environment set up by `virtualenv`.
-For pipenv you will not see any `(venv)` in front of the propt.*
+For pipenv you will not see any `(venv)` in front of the propt._
 
 4. Once `pip` has finished downloading the dependencies:
+
 ```sh
 (venv)$ cd src
 (venv)$ python manage.py makemigrations
 (venv)$ python manage.py migrate
 (venv)$ python manage.py runserver
 ```
+
 The application should be running on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
