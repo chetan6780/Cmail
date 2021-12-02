@@ -35,4 +35,8 @@ For pipenv you will not see any `(venv)` in front of the propt._
 (venv)$ python manage.py runserver
 ```
 
+<img src="screenshots/inbox.png" alt="start" style="width: 70%; border:2px solid black;">
+<img src="screenshots/new-mail.png" alt="middle" style="width: 70%; border:2px solid black;">
+<img src="screenshots/view-mail.png" alt="end" style="width: 70%; border:2px solid black;">
+
 The application should be running on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
