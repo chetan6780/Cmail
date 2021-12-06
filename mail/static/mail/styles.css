@@ -1,37 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 
+:root {
+    --bg-primary: #e2e2e2;
+    --bg-secondary: #90caf9;
+}
+
 * {
-  font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 textarea {
-  min-height: 200px;
+    min-height: 200px;
 }
 body {
-  background-color: #fff9c4 !important;
+    background-color: var(--bg-secondary);
 }
 #message {
-  height: 50px;
+    height: 50px;
 }
 .card-body {
-  padding: 0.9rem;
-}
-.unread {
-  background-color: #e2e2e2;
-}
-.read {
-  background-color: #fff;
-}
-.nav-item {
-  margin-left: 1rem !important;
+    padding: 0.9rem;
 }
 .navbar {
-  background-color: #ffecb3 !important;
+    color: white;
 }
+.unread {
+    background-color: var(--bg-primary);
+}
+.read {
+    background-color: white;
+}
+.nav-item {
+    margin-left: 1rem;
+}
+
 .auth-btn {
-  color: #fff9c4 !important;
-  width: 100% !important;
+    color: #fff9c4;
+    width: 100%;
 }
 #compose-view {
-  background-color: #ffecb3 !important;
-  border-radius: 1%;
+    background-color: var(--bg-secondary);
+    border-radius: 1%;
 }
